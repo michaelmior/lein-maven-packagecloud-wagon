@@ -3,7 +3,7 @@
   :url "https://github.com/computology/lein-maven-packagecloud-wagon.git"
   :license {:name "MIT" :url "http://opensource.org/licenses/MIT"}
 
-  :dependencies [[io.packagecloud.maven.wagon/maven-packagecloud-wagon "0.0.4"]]
+  :dependencies [[io.packagecloud.maven.wagon/maven-packagecloud-wagon "0.0.6"]]
 
   :deploy-repositories [["releases" {:url "https://clojars.org/repo/"
                                      :creds :gpg}]]
